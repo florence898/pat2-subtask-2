@@ -34,7 +34,7 @@ string translateToMorse(const string& message) {
             for (char symbol : morse) {
                 fullMorse += (symbol == '.' ? DOT : DASH);
             }
-            fullMorse += "   "; // 3 spaces between letters
+            fullMorse += "   "; // 
         }
     }
     return fullMorse;
