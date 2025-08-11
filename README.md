@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Morse code map for letters only
+
 unordered_map<char, string> morseCode = {
     {'A', ".-"},   {'B', "-..."}, {'C', "-.-."}, {'D', "-.."},  {'E', "."},
     {'F', "..-."}, {'G', "--."},  {'H', "...."}, {'I', ".."},   {'J', ".---"},
@@ -15,7 +15,7 @@ unordered_map<char, string> morseCode = {
     {'Z', "--.."}
 };
 
-// ASCII characters for dot and dash
+
 const char DOT = 46;  // ASCII '.'
 const char DASH = 45; // ASCII '-'
 
